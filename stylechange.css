@@ -1,0 +1,957 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+@media only screen and (min-width : 240px) {
+	#page-top{
+		height: 100%;
+		max-width: 100%;
+		background-image:url("images/phoneimg.jpg");
+		background-attachment:fixed;
+		background-position:center center;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+	
+	.blockquote > p {
+		color:black;
+		font-size: 30px;
+		font-weight: 900;
+		text-align:center;
+	}
+
+	.blockquote {
+		border-left: none;
+		color:black;
+		margin: 150px auto;
+	}
+
+	#whoami{
+		height: 100%;
+		width:100%;
+		background-image:url("images/whoamibg1.jpg");
+		background-attachment:fixed;
+		background-position:center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#aboutme{
+		margin-top:25px;
+		
+	}
+	#aboutme>h1{
+	font-size:30px;
+	margin: 20px;
+}
+	#aboutme>p{
+		font-size:21px;
+		margin-right:30px;
+		margin-left:30px;
+	}
+
+	#education{
+		margin-bottom: 25px;
+	}
+	#education img{
+		margin-left:100px;
+		margin-right:100px;
+		margin-top: 50px;
+		height:100px;
+		width:100px;
+	}
+	.schooling{
+		
+		font-size:21px;
+		list-style:none;
+		text-align:center;
+		
+	}
+/*Ends who am i effects*/
+	#works{
+		height: 100%;
+		width:100%;	
+		background-image:url("images/projectbg.jpg");
+		background-attachment:fixed;
+		background-position:center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.project{
+		margin-top: 25px;
+		margin-bottom:25px;
+	}
+	.project>h1,h2{
+		font-size:30px;
+		margin: 20px;
+	}
+	.project>p{
+		font-size:21px;
+		margin-right:30px;
+		margin-left:30px;
+	}
+	.techdetails{
+		font-size:21px;
+		margin-right:30px;
+		margin-left:30px;
+	}
+/*Ends works effects*/
+
+	#whyme{
+		height: 100%;
+		width:100%;   
+		background-image:url("images/whoamibg1.jpg");
+		background-attachment:fixed;
+		background-position:center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#whymereason{
+		margin-top:25px;
+		margin-bottom:25px;
+	}
+	#whymereason>h2{
+		font-size:30px;
+		margin: 20px;
+		
+	}
+	#whymereason>p{
+		font-size:21px;
+		margin-right:30px;
+		margin-left:30px;
+	}
+	#traits{
+		font-size:21px;
+		margin-right:30px;
+		margin-left:30px;
+		list-style:none;
+	}
+	#techskills{
+		margin-top:25px;
+		margin-bottom:50px;		
+	}
+	#techskills>h2{
+		font-size:30px;
+	}
+/*Why me effects here*/
+	#pingme{
+		height: 100%;
+		width:100%;
+		background-image:url("images/projectbg.jpg");
+		background-attachment:fixed;
+		background-position:center center;
+		background-repeat: no-repeat;
+		background-size: cover; 
+	}
+	#pingme img{
+		height: 100px;
+		width:100px;
+		margin-left:100px;
+		margin-right:100px;
+		margin-top: 50px;
+	}
+	#pingme p{
+		font-size:21px;
+		text-align:center;
+	}
+	footer{
+		text-align:center;
+		font-size:23px;
+		margin-top:50px;
+		margin-bottom:50px;
+	}
+}
+  /* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	#page-top{
+		height: 100%;
+		max-width: 100%;
+		background-image:url("images/phoneimg.jpg");
+		background-attachment:fixed;
+		background-position:center center:
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+	
+	.blockquote > p {
+		color:black;
+		font-size: 30px;
+		font-weight: 900;
+		text-align:center;
+	}
+
+	.blockquote {
+		border-left: none;
+		color:black;
+		margin: 150px auto;
+	}
+
+	#whoami{
+		height: 100%;
+		width:100%;
+		background-image:url("images/whoamibg1.jpg");
+		background-attachment:fixed;
+		background-position:center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#aboutme{
+		margin-top:25px;
+		
+	}
+	#aboutme>h1{
+	font-size:30px;
+	margin: 20px;
+}
+	#aboutme>p{
+		font-size:21px;
+		margin-right:30px;
+		margin-left:30px;
+	}
+
+	#education{
+		margin-bottom: 25px;
+	}
+	#education img{
+		margin-left:100px;
+		margin-right:100px;
+		margin-top: 50px;
+		height:100px;
+		width:100px;
+	}
+	.schooling{
+		
+		font-size:21px;
+		list-style:none;
+		text-align:center;
+		
+	}
+/*Ends who am i effects*/
+	#works{
+		height: 100%;
+		width:100%;	
+		background-image:url("images/projectbg.jpg");
+		background-attachment:fixed;
+		background-position:center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.project{
+		margin-top: 25px;
+		margin-bottom:25px;
+	}
+	.project>h1,h2{
+		font-size:30px;
+		margin: 20px;
+	}
+	.project>p{
+		font-size:21px;
+		margin-right:30px;
+		margin-left:30px;
+	}
+	.techdetails{
+		font-size:21px;
+		margin-right:30px;
+		margin-left:30px;
+	}
+/*Ends works effects*/
+
+	#whyme{
+		height: 100%;
+		width:100%;   
+		background-image:url("images/whoamibg1.jpg");
+		background-attachment:fixed;
+		background-position:center center:
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#whymereason{
+		margin-top:25px;
+		margin-bottom:25px;
+	}
+	#whymereason>h2{
+		font-size:30px;
+		margin: 20px;
+		
+	}
+	#whymereason>p{
+		font-size:21px;
+		margin-right:30px;
+		margin-left:30px;
+	}
+	#traits{
+		font-size:21px;
+		margin-right:30px;
+		margin-left:30px;
+		list-style:none;
+	}
+	#techskills{
+		margin-top:25px;
+		margin-bottom:50px;		
+	}
+	#techskills>h2{
+		font-size:30px;
+	}
+/*Why me effects here*/
+	#pingme{
+		height: 100%;
+		width:100%;
+		background-image:url("images/projectbg.jpg");
+		background-attachment:fixed;
+		background-position:center center;
+		background-repeat: no-repeat;
+		background-size: cover; 
+	}
+	#pingme img{
+		height: 100px;
+		width:100px;
+		margin-left:100px;
+		margin-right:100px;
+		margin-top: 50px;
+	}
+	#pingme p{
+		font-size:21px;
+		text-align:center;
+	}
+	footer{
+		text-align:center;
+		font-size:23px;
+		margin-top:50px;
+		margin-bottom:50px;
+	}
+}
+ 
+ 
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+	#page-top{
+		height: 100vh;
+		width: 100%;
+		background-image:url("images/phoneimg.jpg");
+		background-attachment:fixed;
+		background-position:center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+		
+	.blockquote {
+		border-left: none;
+		color:black;
+		margin: 200px auto;
+	}
+
+	.blockquote > p {
+		color:black;
+		font-size: 35px;
+		font-weight: 900;
+		text-align:center;
+	}
+
+	#whoami{
+		height: 100%;
+		width:100%;
+		background-image:url("images/whoamibg1.jpg");
+		background-attachment:fixed;
+		background-position:center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#aboutme{
+		margin-top:35px;
+		
+	}
+	#aboutme>h1{
+	
+		font-size:35px;
+		margin: 25px;
+	}
+	#aboutme > p{
+		font-size:21px;
+		margin-right:40px;
+		margin-left:40px;
+	}
+	#education{
+		margin-bottom:50px;
+	}
+	#education img{
+		margin-right:150px;
+		margin-left:150px;
+		margin-top: 50px;
+		height:150px;
+		width:150px;
+	}
+	.schooling{
+		
+		font-size:21px;
+		list-style:none;
+		text-align:center;
+	}
+/*Ends who am i effects*/
+	#works{
+		height: 100%;
+		width:100%;	
+		background-image:url("images/projectbg.jpg");
+		background-attachment:fixed;
+		background-position:center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.project{
+		margin-top: 35px;
+		margin-bottom:35px;
+	}
+	.project>h1,h2{
+		font-size:35px;
+		margin: 25px;
+	}
+	.project>p{
+		font-size:21px;
+		margin-right:40px;
+		margin-left:40px;
+	}
+	.techdetails{
+		font-size:21px;
+		margin-right:40px;
+		margin-left:40px;
+	}
+/*Ends works effects*/
+	#whyme{
+		height: 100%;
+		width:100%;   
+		background-image:url("images/whoamibg1.jpg");
+		background-attachment:fixed;
+		background-position:center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#whymereason{
+		margin-top:35px;
+		margin-bottom:35px;
+
+	}
+	#whymereason>h2{
+		font-size:35px;
+		margin: 25px;
+	}
+	#whymereason>p{
+		font-size:21px;
+		margin-right:40px;
+		margin-left:40px;
+	}
+	#traits{
+		font-size:21px;
+		margin-right:40px;
+		margin-left:40px;
+		list-style:none;
+	}
+	#techskills{
+		margin-top:35px;
+		margin-bottom:35px;		
+	}
+	#techskills>h2{
+		font-size:35px;
+	}
+	#pingme{
+		height: 100%;
+		width:100%;
+		background-image:url("images/projectbg.jpg");
+		background-attachment:fixed;
+		background-position:center center;
+		background-repeat: no-repeat;
+		background-size: cover; 
+	}
+	#pingme img{
+		height: 125px;
+		width:125px;
+		margin-left:150px;
+		margin-right:150px;
+		margin-top: 50px;
+	}
+	#pingme p{
+		font-size:21px;
+		text-align:center;
+	}
+	footer{
+		text-align:center;
+		font-size:30px;
+		margin-top:50px;
+		margin-bottom:50px;
+	}	
+}
+
+    /* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	#page-top{
+		height: 100vh;
+		width: 100%;
+		background-image:url("images/front.jpg");
+		background-attachment:fixed;
+		background-position:center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.blockquote {
+		border-left: none;
+		color:black;
+		margin: 200px auto;
+	}
+	.blockquote > p {
+		color:white;
+		font-size: 50px;
+		font-weight: 900;
+		text-align:center;
+	}
+	#whoami{
+		height: 100%;
+		width:100%;
+		background-image:url("images/whoamibg1.jpg");
+		background-attachment:fixed;
+		background-position:center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#aboutme{
+		margin-top:35px;
+	}
+	#aboutme>h1{
+	
+		font-size:40px;
+		margin: 25px;
+	}
+	#aboutme > p{
+		font-size:21px;
+		margin-right:45px;
+		margin-left:45px;
+	}
+	#education{
+		margin-bottom:50px;
+	}
+	#education img{
+		margin-right:300px;
+		margin-left:300px;
+		margin-top: 50px;
+		height:150px;
+		width:150px;
+	}
+	.schooling{
+		
+		font-size:21px;
+		list-style:none;
+		text-align: center;
+	}
+/*Ends who am i effects*/
+	#works{
+		height: 100%;
+		width:100%;	
+		background-image:url("images/projectbg.jpg");
+		background-attachment:fixed;
+		background-position:center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.project{
+		margin-top: 35px;
+		margin-bottom:35px;
+	}
+	.project>h1,h2{
+		font-size:40px;
+		margin: 25px;
+	}
+	.project>p{
+		font-size:21px;
+		margin-right:45px;
+		margin-left:45px;
+	}
+	.techdetails{
+		font-size:21px;
+		margin-right:45px;
+		margin-left:45px;
+	}
+/*Ends works effects*/
+	#whyme{
+		height: 100%;
+		width:100%;   
+		background-image:url("images/whoamibg1.jpg");
+		background-attachment:fixed;
+		background-position:center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#whymereason{
+		margin-top:35px;
+		margin-bottom:35px;
+
+	}
+	#whymereason>h2{
+		font-size:40px;
+		margin: 25px;
+	}
+	#whymereason>p{
+		font-size:21px;
+		margin-right:45px;
+		margin-left:45px;
+	}
+	#traits{
+		font-size:21px;
+		margin-right:450px;
+		margin-left:45px;
+		list-style:none;
+	}
+	#techskills{
+		margin-top:35px;
+		margin-bottom:50px;		
+	}
+	#techskills>h2{
+		font-size:40px;
+	}
+	#pingme{
+		height: 100%;
+		width:100%;
+		background-image:url("images/projectbg.jpg");
+		background-attachment:fixed;
+		background-position:center center;
+		background-repeat: no-repeat;
+		background-size: cover; 
+	}
+	#pingme img{
+		margin-right:300px;
+		margin-left:300px;
+		margin-top: 50px;
+		height:150px;
+		width:150px;
+		margin-top:150px;
+	}
+	#pingme p{
+		font-size:21px;
+		text-align:center;
+	}
+	footer{
+		text-align:center;
+		font-size:30px;
+		margin-top:50px;
+		margin-bottom:50px;
+	}
+}
+
+    /* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	#page-top{
+		height: 100vh;
+		width: 100%;
+		background-image:url("images/front.jpg");
+		background-attachment:fixed;
+		background-position:center center;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+	.blockquote {
+		border-left: none;
+		color:black;
+		margin: 200px auto;
+	}
+	.blockquote > p {
+		color:white;
+		font-size: 50px;
+		font-weight: 900;
+		text-align:center;
+	}
+	#whoami{
+		height: 100%;
+		width:100%;
+		background-image:url("images/whoamibg1.jpg");
+		background-attachment:fixed;
+		background-position:center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#aboutme{
+		margin-top:50px;
+		
+	}
+	#aboutme>h1{
+		
+		margin: 25px;
+	}
+	#aboutme>p{
+		font-size:21px;
+		margin-left:30px;
+		margin-right:20px;
+		
+	}	
+
+	#user{
+		border-radius:100%;
+		margin: 100px auto;
+	}
+	
+	#education{
+		
+		margin-bottom:50px;
+	}
+	#education img{
+		margin-left:100px;
+		margin-right:100px;
+		margin-top:50px;
+	}	
+	.schooling{
+		font-size:21px;
+		list-style:none;
+		text-align:center;
+		
+	}
+	/*Ends who am i effects*/
+	#works{
+		height: 100%;
+		width:100%;	
+		background-image:url("images/projectbg.jpg");
+		background-attachment:fixed;
+		background-position:center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.project{
+		margin-top: 30px;
+		margin-bottom:30px;
+	}
+	.project>h1,h2{
+		margin: 25px;
+	}
+	.project>p{
+		font-size:21px;
+		margin-right:50px;
+		margin-left:20px;
+	}
+	.techdetails{
+		font-size:21px;
+		margin-right:50px;
+		margin-left:20px;
+	}
+	/*Ends works effects*/
+	#whyme{
+		height: 100%;
+		width:100%;   
+		background-image:url("images/whoamibg1.jpg");
+		background-attachment:fixed;
+		background-position:center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#whymereason{
+		margin-top:30px;
+		margin-bottom:30px;
+	}
+	#whymereason>h2{
+		margin: 25px;
+	}
+	#whymereason>p{
+		font-size:21px;
+		margin-right:50px;
+		margin-left:20px;
+	}
+	#traits{
+		font-size:21px;
+		margin-right:50px;
+		margin-left:20px;
+		list-style:none;
+	}
+	#techskills{
+		margin-top:30px;
+		margin-bottom:70px;		
+	}
+	#techskills>h2{
+		margin: 25px;
+	}
+	#pingme{
+		height: 100%;
+		width:100%;
+		background-image:url("images/projectbg.jpg");
+		background-attachment:fixed;
+		background-position:center center;
+		background-repeat: no-repeat;
+		background-size: cover; 
+	}
+	#pingme img{
+		margin-left:100px;
+		margin-right:100px;
+		height:150px;
+		width:150px;
+		margin-top:150px;
+	}
+	#pingme p{
+		font-size:21px;
+		text-align:center;
+		
+	}
+	footer{
+		text-align:center;
+		font-size:30px;
+		margin-top:50px;
+		margin-bottom:50px;
+	}
+	.navbar-inverse {
+    background-color: #001E36;
+    border-color: #001E36;
+	}
+	.navbar-inverse .navbar-brand {
+    color: white;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 20px;
+    line-height: 20px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	#page-top{
+		height: 100vh;
+		width: 100%;
+		background-image:url("images/front.jpg");
+		background-attachment:fixed;
+		background-position:center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.blockquote > p {
+		color:white;
+		font-size: 70px;
+		font-weight: 900;
+		text-align:center;
+	}
+	.blockquote {
+		border-left: none;
+		color:black;
+		margin: 200px auto;
+	}
+	#whoami{
+		height: 100%;
+		width:100%;
+		background-image:url("images/whoamibg1.jpg");
+		background-attachment:fixed;
+		background-position:center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#aboutme{
+		margin-top:50px;
+		
+	}
+	#aboutme>h1{
+		margin: 30px;
+	}
+	#aboutme>p{
+		font-size:21px;
+		margin-right:20px;
+		margin-left:40px;
+	}
+	#user{
+		border-radius:100%;
+		margin:100px auto;	
+	}
+	#education{
+		margin-bottom:50px;
+	}
+	#education img{
+		margin-left:150px;
+		margin-right:150px;
+	}
+	.schooling{
+		font-size:21px;
+		list-style:none;
+		text-align:center;
+		
+	}
+	/*Ends who am i effects*/
+	#works{
+		height: 100%;
+		width:100%;	
+		background-image:url("images/projectbg.jpg");
+		background-attachment:fixed;
+		background-position:center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.project{
+		margin-top: 50px;
+		margin-bottom:50px;
+	}
+	.project>h1,h2{
+		margin: 30px;
+	}
+	.project>p{
+		font-size:21px;
+		margin-right:20px;
+		margin-left:40px;
+	}
+	.techdetails{
+		font-size:21px;
+		margin-right:20px;
+		margin-left:40px;
+	}
+	/*Ends works effects*/
+	#whyme{
+		height: 100%;
+		width:100%;   
+		background-image:url("images/whoamibg1.jpg");
+		background-attachment:fixed;
+		background-position:center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#whymereason{
+		margin-top:50px;
+		margin-bottom:50px;
+	}
+	#whymereason>h2{
+		margin:30px;
+	}
+	#whymereason>p{
+		font-size:21px;
+		margin-right:20px;
+		margin-left:40px;
+	}
+	#traits{
+		font-size:21px;
+		margin-right:20px;
+		margin-left:40px;
+		list-style:none;
+	}
+	#techskills{
+		margin-top:50px;
+		margin-bottom:100px;		
+	}
+	#techskills>h2{
+		margin: 30px;
+	}
+	#pingme{
+		height: 100%;
+		width:100%;
+		background-image:url("images/projectbg.jpg");
+		background-attachment:fixed;
+		background-position:center center;
+		background-repeat: no-repeat;
+		background-size: cover; 
+	}
+	#pingme img{
+		margin-left:150px;
+		margin-right:150px;
+		margin-top:150px;
+	}
+	#pingme p{
+		font-size:21px;
+		text-align:center;
+		
+	}
+	footer{
+		text-align:center;
+		font-size:40px;
+		margin-top:50px;
+		margin-bottom:50px;
+	}
+}
